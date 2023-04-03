@@ -130,7 +130,7 @@ namespace DAL
             {
                 saleLimit = 0;
             }
-            else
+            else 
             {
                 saleLimit = Convert.ToInt32(cmd.ExecuteScalar());
             }
