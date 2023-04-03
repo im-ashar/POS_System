@@ -115,7 +115,7 @@ namespace DAL
 
             con.Close();
             return customerLimit;
-        }
+        } 
         //Checking If Customer Has Increase Its Daily Limit Or Not
         public int CheckSaleLimitIncreaseDAL(SaleDTO objSaleDTO) 
         {
