@@ -117,7 +117,7 @@ namespace DAL
             return customerLimit;
         }
         //Checking If Customer Has Increase Its Daily Limit Or Not
-        public int CheckSaleLimitIncreaseDAL(SaleDTO objSaleDTO)
+        public int CheckSaleLimitIncreaseDAL(SaleDTO objSaleDTO) 
         {
             string date = DateTime.Today.ToString("dd-MM-yyyy");
             string query = $@"SELECT SUM(amount) FROM SaleLineItem 
